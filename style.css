@@ -1,0 +1,124 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+.side-bars{
+    display: flex;
+}
+.sidebar-left{
+    height: 100vh;
+    width: 350px;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    
+}
+.logo{
+    display: flex;
+    margin-top: 150px;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.logo img{
+    width: 100px;
+    height: 110px;
+    padding-left: 45px;
+}
+.logo h1{
+    color: #fff;
+    font-size: 65px;
+    padding-right: 45px;
+    margin-top: 14px;
+    font-family: ';
+}
+.sidebar-right{
+    background-color:  rgba(243, 240, 240, 0.712);
+    
+}
+.sidebar-right p{
+    font-family: 'norse-bold',sans-serif;
+    font-size: 25px;
+    padding: 40px 20px 0 110px;
+    margin-right: 40px;
+}
+.sidebar-right p{
+    font-weight: bolder;
+}
+.info{
+    margin: 30px 0 0 0px;
+    background-color:#fff;
+    padding-bottom: 30px;
+}
+.info-head{
+    margin: 30px;
+    padding: 20px 0px 0 20px;
+    margin-left: 90px;
+
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2{
+    font-family: sans-serif;
+}
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;   
+}
+.lastname{
+    margin-right: 100px;
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;   
+}
+.phone-number{
+    margin-right: 100px;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;   
+}
+.confirm-password{
+    margin-right: 100px;
+}
+input#name{
+    width: 300px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+}
+input#name:focus{
+    border: 1px solid #0000ff;
+}
+input#create-account{
+    width: 200px;
+    padding: 7px;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color:  #596D48;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+.login{
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 2px;
+    font-family: sans-serif;
+}
+.login a{
+    text-decoration: none;
+    color: #596D48;
+}
